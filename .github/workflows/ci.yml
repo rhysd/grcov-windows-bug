@@ -31,4 +31,5 @@ jobs:
           files: ./cov/lcov.info
       - uses: actions/upload-artifact@v3
         with:
-          path: ./cov/lcov.info
+          path:
+            ./cov/
