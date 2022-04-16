@@ -7,7 +7,7 @@ jobs:
     strategy:
       matrix:
         install:
-          - release
+          # - release
           - cargo
     env:
       RUSTFLAGS: -C instrument-coverage
